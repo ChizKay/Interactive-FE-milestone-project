@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Your Destination</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <img src="assets/img/ireland.jpg" alt="ireland" class="ireImg">
+
+    <h1> Places You Should Visit In Ireland </h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>1. Kilkenny</h2>
+                <img src="">
+                <P>Kilkenny is a medieval town in southeast Ireland. Its grand Kilkenny Castle was built in 1195 by Norman occupiers. The town has deep religious roots and many well-preserved churches and monasteries, including imposing St. Canice’s Cathedral
+                    and the Black Abbey Dominican priory, both from the 13th century. It's also a crafts hub, with shops along its winding lanes selling pottery, paintings and jewellery.</P>
+                <h2>
+                    2. Galway</h2>
+                <img src=">" 
+                <P>Galway, a harbour city on Ireland’s west coast, sits where the River Corrib meets the Atlantic Ocean. The city’s hub is 18th-century Eyre Square, a popular meeting spot surrounded by shops and traditional pubs that often
+                offer live Irish folk music. Nearby, stone-clad cafes, boutiques and art galleries line the winding lanes of the Latin Quarter, which retains portions of the medieval city walls.</P>
+                <h2>3. Cork</h2>
+                <img src="">
+                <P>Cork, is a city in south-west Ireland, in the province of Munster. As of the 2016 census, the city had a population of 125,657, but following a boundary extension in 2019, the population increased to c. 210,000. It is the second largest
+                    city in the Republic of Ireland</P>
+                <h2>4. Donegal</h2>
+                <img src=">"
+                <P>County Donegal is a largely Irish-speaking region bordering the Atlantic Ocean in northwestern Ireland. It’s made up of castles, rugged coastline and mountains such as the quartzite Mount Errigal. Glenveagh National Park,
+                once a private estate, encompasses forests, lakes and bogland in the Derryveagh Mountains. Its 1870s manor house, the Scottish Baronial-style Glenveagh Castle, is known for its Victorian gardens.</P>
+                <h2>5. Dublin</h2>
+                <img src=">" <P>Dublin, capital of the Republic of Ireland, is on Ireland’s east coast at the mouth of the River Liffey. Its historic buildings include Dublin Castle, dating to the 13th century, and imposing St Patrick’s Cathedral, founded
+                in 1191. City parks include landscaped St Stephen’s Green and huge Phoenix Park, containing Dublin Zoo. The National Museum of Ireland explores Irish heritage and culture.</P>
+            </div>
+            <div class="col-sm-6">
+                <h3>Ireland Map</h3>
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4PkAVJMfuUSrpWD9_nDhIXyMY3Ze_Tpk&callback=initMap"></script>
+<script src="assets/js/maps.js"></script>
+
+</html>
